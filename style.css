@@ -98,4 +98,6 @@ h2 {
 .boxes {
   /* Horizontally align the information content. */
   display: flex;
+  /* Put space around the information section. */
+  margin: 0px 350px 100px 350px;
 }
