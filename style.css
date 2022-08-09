@@ -62,4 +62,6 @@ h1 {
 
 .hero {
   background-color: #1f2937;
+  /* Make flex items to horizontally place the image. */
+  display: flex;
 }
