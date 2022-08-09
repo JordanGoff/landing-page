@@ -134,4 +134,7 @@ h2 {
   font-size: 25px;
   color: #1f2937;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
 }
