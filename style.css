@@ -40,6 +40,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 h1 {
   font-size: 48px;
   color: #f9faf8;
@@ -53,6 +57,7 @@ h1 {
   border: none;
   padding: 8px 32px;
   border-radius: 8px;
+  margin-top: 8px;
 }
 
 .hero-image {
@@ -64,4 +69,13 @@ h1 {
   background-color: #1f2937;
   /* Make flex items to horizontally place the image. */
   display: flex;
+  /* Put space around the hero section. */
+  padding: 100px 250px;
+  /* Put space between the hero text and the image. */
+  gap: 16px;
+}
+
+.hero div {
+  /* Even space both children in the hero section. */
+  flex: 1;
 }
