@@ -80,8 +80,11 @@ h1 {
   flex: 1;
 }
 
-h2 {
+.information {
   text-align: center;
+}
+
+h2 {
   font-size: 32px;
   color: #1f2937;
 }
