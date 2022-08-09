@@ -118,3 +118,9 @@ h2 {
   margin-top: 4px;
   color: #777777;
 }
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
