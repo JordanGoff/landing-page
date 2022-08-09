@@ -5,8 +5,12 @@ body {
 
 .header {
   background-color: #1f2937;
+  /* Put space around the header content. */
+  padding: 16px 250px;
   /* Make the flex items the logo and the collection of links. */
   display: flex;
+  /* Put space between the header logo and the links. */
+  justify-content: space-between;
 }
 
 .logo {
@@ -19,6 +23,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /* Make the flex items the separate list items. */
+  display: flex;
+  /* Put space between the links. */
+  gap: 50px;
 }
 
 a {
