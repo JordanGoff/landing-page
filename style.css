@@ -88,3 +88,8 @@ h1 {
   border-color: #3882f6;
   border-radius: 8px;
 }
+
+.boxes {
+  /* Horizontally align the information content. */
+  display: flex;
+}
