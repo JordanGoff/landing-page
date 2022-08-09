@@ -90,8 +90,8 @@ h2 {
 }
 
 .image {
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   border-width: 4px;
   border-style: solid;
   border-color: #3882f6;
@@ -101,6 +101,20 @@ h2 {
 .boxes {
   /* Horizontally align the information content. */
   display: flex;
-  /* Put space around the information section. */
-  margin: 0px 350px 100px 350px;
+  /* Put space below the information section. */
+  margin-bottom: 100px;
+  /* Center the boxes. */
+  justify-content: center;
+  /* Put space between the boxes. */
+  gap: 50px
+}
+
+.boxes div {
+  /* Make the width of the flex children the same as the boxes. */
+  max-width: 160px;
+}
+
+.boxes div p {
+  margin-top: 4px;
+  color: #777777;
 }
