@@ -80,6 +80,12 @@ h1 {
   flex: 1;
 }
 
+h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #1f2937;
+}
+
 .image {
   height: 150px;
   width: 150px;
