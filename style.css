@@ -131,6 +131,7 @@ h2 {
 }
 
 .author {
-  font-size: 30px;
+  font-size: 25px;
   color: #1f2937;
+  font-weight: bold;
 }
