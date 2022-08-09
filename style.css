@@ -43,6 +43,7 @@ a {
 h1 {
   font-size: 48px;
   color: #f9faf8;
+  margin: 0;
 }
 
 .hero-button {
@@ -57,4 +58,8 @@ h1 {
 .hero-image {
   color: #f9faf8;
   background-color: #e5e7eb;
+}
+
+.hero {
+  background-color: #1f2937;
 }
