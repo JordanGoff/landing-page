@@ -31,8 +31,30 @@ ul {
   gap: 50px;
 }
 
-a {
-  text-decoration: none;
+a, p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-weight: bold;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.hero-image {
+  color: #f9faf8;
+  background-color: #e5e7eb;
 }
