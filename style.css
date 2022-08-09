@@ -11,6 +11,8 @@ body {
   display: flex;
   /* Put space between the header logo and the links. */
   justify-content: space-between;
+  /* Center the header vertically. */
+  align-items: center;
 }
 
 .logo {
