@@ -70,14 +70,20 @@ h1 {
   /* Make flex items to horizontally place the image. */
   display: flex;
   /* Put space around the hero section. */
-  padding: 100px 250px;
-  /* Put space between the hero text and the image. */
-  gap: 16px;
+  padding: 100px 0px;
+  /* Center the header vertically. */
+  align-items: center;
+  /* Put space on both sides of the hero section. */
+  justify-content: center;
+  /* Put space between the hero content and image. */
+  gap: 64px;
 }
 
 .hero div {
   /* Even space both children in the hero section. */
   flex: 1;
+  /* Fix the width for both flex items in the hero section. */
+  max-width: 450px;
 }
 
 .information {
