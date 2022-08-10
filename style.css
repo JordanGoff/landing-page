@@ -152,6 +152,18 @@ h2 {
 
 .action {
   background-color: #3882f6;
+  /* Put space on the top and bottom and center the box. */
+  margin: 100px auto;
+  /* Put space on the inside of the box. */
+  padding: 50px 0px;
+  /* Put the button on the right side. */
+  display: flex;
+  /* Resize the box. */
+  width: 1000px;
+  /* Separate the flex items. */
+  justify-content: space-around;
+  /* Round the edges. */
+  border-radius: 8px;
 }
 
 .action-one {
@@ -170,4 +182,5 @@ h2 {
   padding: 8px 32px;
   border-radius: 8px;
   border-color: #f9faf8;
+  font-weight: bold;
 }
