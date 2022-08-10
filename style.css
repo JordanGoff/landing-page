@@ -62,7 +62,13 @@ h1 {
 
 .hero-image {
   color: #f9faf8;
-  background-color: #e5e7eb;
+  background-color: #888888;
+  /* Stretch the background to be a bigger box. */
+  align-self: stretch;
+  /* Center the text. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
