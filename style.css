@@ -127,20 +127,25 @@ h2 {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 100px 540px;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-text {
   font-size: 36px;
   font-style: italic;
   color: #5f5f5f;
+  max-width: 830px;
+  /* Center the quote horizontally. */
+  align-self: center;
 }
 
 .author {
   font-size: 25px;
   color: #1f2937;
   font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 25px;
+  max-width: 830px;
+  align-self: flex-end;
+  margin-right: 390px;
 }
