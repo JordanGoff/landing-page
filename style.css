@@ -149,3 +149,26 @@ h2 {
   align-self: flex-end;
   margin-right: 390px;
 }
+
+.action {
+  background-color: #3882f6;
+}
+
+.action-one {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.action-two {
+  color: #f9faf8;
+}
+
+.action-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border-radius: 8px;
+  margin-top: 8px;
+  border-color: #f9faf8;
+}
