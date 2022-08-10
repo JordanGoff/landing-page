@@ -6,11 +6,11 @@ body {
 .header {
   background-color: #1f2937;
   /* Put space around the header content. */
-  padding: 16px 250px;
+  padding: 16px 0px;
   /* Make the flex items the logo and the collection of links. */
   display: flex;
   /* Put space between the header logo and the links. */
-  justify-content: space-between;
+  justify-content: space-around;
   /* Center the header vertically. */
   align-items: center;
 }
